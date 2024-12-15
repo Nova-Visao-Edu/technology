@@ -1,0 +1,138 @@
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-image: url(./imagem1.png);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ícone */
+.icon {
+    border-radius: 30px;
+}
+
+/* ÁREA DO TOPO */
+#area-topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.imagem-topo {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 4em; /* Ajustado para ser responsivo */
+    color: #fff;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.preto {
+    color: #000;
+}
+
+/* PRIMEIRO QUADRO */
+#primeiro-quadro {
+    width: 500px;
+    max-width: 90%; /* Responsivo para telas menores */
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: black;
+    height: auto; /* Ajusta altura ao conteúdo */
+    margin: 20px auto; /* Centralizado horizontalmente */
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Mantém as imagens nas laterais */
+    align-items: center; /* Alinha conteúdo verticalmente */
+}
+
+.botao:hover {
+    box-shadow: 10px 10px 10px rgba(100, 20, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    animation: pulso 2s infinite;
+}
+
+/* Imagens dentro do primeiro quadro */
+#imagem {
+    border-radius: 10px;
+    max-width: 140px;
+    height: auto;
+    margin-right: 15px;
+}
+
+#imagem1 {
+    border-radius: 10px;
+    max-width: 50px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.branco1 {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+/* SEGUNDO QUADRO */
+#segundo-quadro {
+    width: 500px;
+    max-width: 90%; /* Responsivo para telas menores */
+    background: black;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px auto; /* Centralizado horizontalmente */
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between; /* Mantém as imagens nas laterais */
+    align-items: center; /* Alinha conteúdo verticalmente */
+}
+
+/* Imagens dentro do segundo quadro */
+#imagem2,
+#imagem3 {
+    border-radius: 10px;
+    max-width: 80px;
+    height: auto;
+}
+
+#imagem3 {
+    max-width: 60px;
+}
+
+.branco2 {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+/* GERAL */
+.espaço, .espaço2 {
+    padding: 20px; /* Ajustado para melhor espaçamento em dispositivos móveis */
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* FINAL DO SEGUNDO QUADRO*/
